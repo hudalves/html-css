@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Html-5.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: blue;
+        }
+    </style>
+    <title>pagina 2 do exercicio extra</title>
+</head>
+<body>
+    <h1>coisas que eu ja aprendi</h1>
+    <h2>hierarquia de titulos</h2>
+    <p>h1,h2,h3,h4,h5 e h6 são os pricipais usados com a hierarquia</p>
+    <h2>semantica e não semantica</h2>
+    <ul type="square">codigos que tem um sentido são semanticas</ul>
+    <ul type="square">codigos que não tem sentido são não semanticas</ul>
+    <h2>negrito e italico</h2>
+    <p>temos como deixar um palavra em <strong>negrito</strong> usando a tag strong</p>
+    <p>tambem emos como colocar um <em> termo em italico</em> usando a tag em</p>
+    <p>tambem temos como <mark>marcar uma frase</mark> usando a tag mark tambem podemos mudar sua cor usando a tag style/mark/backgroundcolor</p>
+    <h2>texto deletado e excluido</h2>
+    <p>podemos marcar um <del>texto como excluido</del> usando a tag del</p>
+    <p>e podemos marcar um texto como inserido usando a tag ins</p>
+    <h2>texto sobrescrito e subiscrito</h2>
+    <p>para termos um texto sobrescrito usamos a tag sup exemplo x <sup>2</sup>=30</p>
+    <p>podemos ter um texto subiscrito usando a tag sub exemplo H <sub>2</sub>o</p>
+    <h2>como criar listas </h2>
+    <p>para listas não ordenadas usamos a tag ul e li exemplo <ul>
+        <li>p8</li>
+        <li>ps500</li>
+    </ul></p>
+    <p>ja para listas ordenadas usamos a tag ol e li exemplo <ol>
+        <li>acordar</li>
+        <li>tomar cafe</li>
+        <ul>
+            <li>comer pão</li>
+            <li>suco de maracuja</li>
+        </ul>
+        <li>ir para a escola</li>
+    </ol></p>
+    <h2>listas de definiçoes</h2>
+    <p>para listas de definiçoes usamos as tag dl/dt/dd exemplo</p>
+    <dl>
+        <dt>html
+            <dd>
+                Linguagem de marcação para criar sites
+            </dd>
+        </dt>
+    </dl>
+    <h2>links internos e externos</h2>
+    <p>primeiro links internos usamos a tag <strong>a</strong> <a href="index.html" target="_blank">clique aqui para voltar a primeira pagina</a> e usamos a tag target _blank para abrir em uma segunda pagina</p>
+    <h2>links para downloads</h2>
+    <p>para links de download usamos a tag a no exemplo usarei um arquivo zip </p>
+    <p>primeiro selecionamos o arquivo depois botamos type application/zip</p>
+    <p>
+<ul> 
+    <a href="document.zip" type="application/zip">documento zip</a> 
+</ul>
+    </p> 
+    <h2>abreviaçoes</h2>
+    <p>para fazermos uma abreviação usamos a tag abbr</p>
+    <p>estou estudando <abbr title="linguagem de hipertexto">html</abbr></p>
+    <h2>imagens dinamicas</h2>
+    <p>para fazermos imagens que se ajustam com o tamanho da tela usamos as tags <strong>
+        /picture
+            source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+            img src="imagens/foto-G.png" alt="imagen flexicivel">
+    </strong>
+    </picture></p>
+    
+<picture>
+<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+ <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+<img src="imagens/foto-G.png" alt="imagen flexicivel">
+</picture>
+<h1>reproduzindo audios</h1>
+<p>vamos aprender a reproduzir audios</p>
+<audio preload="metadata" controls autoplay loop>
+    <source src="midia/Nine Lives - Unicorn Heads.mp3" type="audio/mpeg">
+    <p>infelismente seu navegador não consegue reproduzir audio <a href="midia/Nine Lives - Unicorn Heads.mp3">clique aqui para baixar o arquivo mp3</a></p>
+</audio>
+<p>para fazer isso usei as tags</p>
+<p>  audio preload="metadata" controls autoplay loop>
+        source src="midia/Nine Lives - Unicorn Heads.mp3" type="audio/mpeg">
+    </audio></p>  
+    <h1>inserido videos hospedados localmente</h1>
+    <p>este video esta hopedado no meu proprio servidor</p>
+    <video controls width="300" poster="img/foto-p.png">
+    <source src="midia/20210721_233407.mp4" type="video/mp4">
+    <source src="midia/20210721_233407.m4v" type="video/mp4">
+    <source src="midia/20210721_233407.webm" type="video/webm">
+    <source src="midia/20210721_233407.ogv" type="video/ogg">
+    <p>para isso usamos a tag video controls width="300" poster=</p>  
+    <p>teste para o github</p>
+</body>
+</html>
